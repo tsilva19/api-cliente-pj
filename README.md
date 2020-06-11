@@ -10,12 +10,18 @@ Utilizao recurso de docker
 
 Possuir NodeJS instalado e mongoDB para configurar os dados respectivos de sua empresa , criar o banco de dados no mongo com o nome Consulta e criar a collection no banco de Dados de nome consulta, seguindo a base que existe na pasta Model.
 
+## Instalando as dependências
+
+No prompt cmd ir na pasta do codigo, e digitar npm install, ele vai verificar no package.json as libs que precisam ser instaladas
 
 ## Subindo o Server
 
-No prompit cmd ir na pasta do codigo, e digitar npm dev
+
+No prompt cmd ir na pasta do codigo, 
+
+e digitar npm dev
 
 
 ## chamadas restifull GET
 
-get exemplo http://
+get exemplo http://localhost:3333/clientes
