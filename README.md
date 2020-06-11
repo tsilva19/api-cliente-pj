@@ -4,7 +4,7 @@ Esta api realiza integração com banco de Dados MongoDB ,  que por sua vez pode
 
 ### Usando Docker
 
-Utilizao recurso de docker
+Pode utilizar recurso de docker
 
 ## Requisitos
 
@@ -24,4 +24,8 @@ e digitar npm dev
 
 ## chamadas restifull GET
 
-get exemplo http://localhost:3333/clientes
+get exemplo http://localhost:3333/
+
+## Padrão de dados que podem ser buscados no banco de Dados
+
+get exemplo http://localhost:3333/clientes?nome="XPTO"
